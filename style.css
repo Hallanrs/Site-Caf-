@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.navegaçao{
+     background-color: rgb(54, 155, 11);
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     flex-flow: row wrap; 
+     border-bottom: solid 3px yellow;
+}   
+
+#home{
+    align-items: center; 
+}
+
+#cardapio{
+    align-items: center; 
+}
+
+#sobre{
+    align-items: center; 
+}
+.menu{
+    flex: 50%;
+    margin-right: 10%; 
+    text-align: right;
+    
+}
+.card{
+    padding: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.fale{
+    padding: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: rgb(0, 0, 7);
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.fale:hover{
+    padding: 20px;
+    color: yellow;
+    background-color: rgb(54, 155, 11);
+    border: solid 2px black;
+}
+
+
+.card:hover{
+    border-top: solid 5px black;
+    color: yellow;
+}
+
+
+.logo {
+    margin-left: 10%;
+    flex: 30%;
+    color: rgb(235, 245, 235);
+    text-align: left;
+    font-size: 35px;
+    font-family: "Lugrasimo", cursive;
+    }
+ 
+.header{
+       
+        display: flex;
+        flex-flow: row wrap; 
+        justify-content: center;
+        align-items: center;
+       }
+
+.titulo1{
+    margin-left: 10%;
+    flex: 40%;  
+    justify-content: center;
+    text-align: center;
+ 
+    
+}
+.imagem{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: right;
+    
+   
+}
+.texto1{
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(54, 155, 11)
+   
+}
+.texto2{
+    font-size: 70px;
+    font-family: "Lugrasimo", cursive;
+    color: rgb(54, 155, 11);
+}
+.escrita{
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.section{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 6px rgb(54, 155, 11);
+    border-top: solid 6px rgb(54, 155, 11);
+}
+.gelado{
+    padding: 100px;
+    flex: 30%;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+    
+}
+.expresso{
+    padding: 100px;
+    flex: 30%;
+    justify-content: center;
+    text-align: center;
+    
+}
+.caputino{
+    padding: 100px;
+    flex: 30%;
+    margin-right: 5%;
+    justify-content: center;
+    text-align: center;
+    
+}
+.titulo{
+    font-family: "Lugrasimo", cursive;
+    font-size: 35px;
+}
+.conteudo{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+
+}
+.figuras{
+    width: 150px;
+}
+main{
+    display: flex;
+    justify-content: center;
+   
+}
+.sobre{
+    font-size: 70px;
+    font-family: "Lugrasimo", cursive;
+    color: rgb(54, 155, 11);
+   
+    
+    
+}
+.loja{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    
+}
+.ultimo{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.rodape{
+    background-color: black;
+    height: 300px;
+    margin-top: 125px;
+    justify-content: center;
+    text-align: center;
+   display: inline-block;
+   width: 100%;
+   border-top: solid 6px rgb(54, 155, 11);
+}
+.creditotitulo{
+    font-size: 60px;
+    color: white;
+    font-family: "Lugrasimo", cursive;
+}
+.credito{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+   }
+
